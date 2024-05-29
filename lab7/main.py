@@ -82,4 +82,4 @@ for size in sample_sizes:
           f" КС: {ks_statistic:.10f},"
           f" p: {p_value:.10f}.")
 
-    # plot_cdf(samples)
+    plot_cdf(samples)

@@ -67,6 +67,6 @@ if __name__ == '__main__':
     # Рандомизация строк DataFrame
     df = df.sample(frac=1).reset_index(drop=True)
     # Запись результатов в Excel-файл
-    df.to_excel('experiment_results1.xlsx', index=False)
+    df.to_excel('experiment_results.xlsx', index=False)
 
     print("Результаты эксперимента записаны в файл 'experiment_results.xlsx'.")
